@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "581801505498",
+    "project_id": "loginapp-9140f",
+    "storage_bucket": "loginapp-9140f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581801505498:android:25295e3ab4118356d9abe3",
+        "android_client_info": {
+          "package_name": "com.tieulac305.perfect_login_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581801505498-qhjh38dkr7fvprl8adkkkruqgce8ku7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdHzPd_SLVquEnlLJ-E2WPtoM2Q4z4H78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581801505498-qhjh38dkr7fvprl8adkkkruqgce8ku7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
