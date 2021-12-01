@@ -30,19 +30,29 @@ class AppLocalization{
 
   static final Map<String, Map<String, String>> _db = {
     'en': {
+      'error': "OOOPPPPSSS!",
       'title': "Perfect Login App",
       'login': "Login",
+      'login_fail': "Failed to login.",
       'username': "Username",
+      'empty_validate_fail': "Don't let me empty :'(",
       'password': "Password",
+      'password_validate_fail': "At least 5 chars, please!",
       'register': "Register",
+      'register_fail': "Failed to register.",
       'welcome_text': "Hey you little cute",
     },
     'vi': {
+      'error': "Ôi khônggg!",
       'title': "Đăng nhập siêu cấp",
       'login': "Đăng nhập",
+      'login_fail': "Đăng nhập thất bại.",
       'username': "Tên đăng nhập",
+      'empty_validate_fail': "Không được bỏ trốnggg",
       'password': "Mật khẩu",
+      'password_validate_fail': "Cần nhiều hơn 5 kí tự!",
       'register': "Đăng kí",
+      'register_fail': "Đăng kí thất bại.",
       'welcome_text': "Xin chào bạn cute",
     },
   };

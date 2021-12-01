@@ -29,6 +29,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
   provider: ^6.0.1
   equatable: ^2.0.3
@@ -36,17 +38,41 @@ dependencies:
   firebase_core: ^1.10.0
   firebase_auth: ^3.2.0
   intl: ^0.17.0
+  another_flushbar: ^1.10.26
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  
+  flutter_native_splash: ^1.2.4
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
+
+# native splash settings
+flutter_native_splash:
+  # This package generates native code to customize Flutter's default white native splash screen
+  # with background color and splash image.
+  # Customize the parameters below, and run the following command in the terminal:
+  # flutter pub run flutter_native_splash:create
+  # To restore Flutter's default white splash screen, run the following command in the terminal:
+  # flutter pub run flutter_native_splash:remove
+
+  # color or background_image is the only required parameter.  Use color to set the background
+  # of your splash screen to a solid color.  Use background_image to set the background of your
+  # splash screen to a png image.  This is useful for gradients. The image will be stretch to the
+  # size of the app. Only one parameter can be used, color and background_image cannot both be set.
+  color: "#ffbbbb"
+  
+  # Optional parameters are listed below.  To enable a parameter, uncomment the line by removing 
+  # the leading # character.
+
+  # The image parameter allows you to specify an image used in the splash screen.  It must be a 
+  # png file and should be sized for 4x pixel density.
+  image: assets/images/splash.png
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -60,9 +86,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

@@ -32,6 +32,10 @@ class FirebaseUserRepository extends UserRepository {
             email: username,
             password: password
           );
+      final user = FirebaseAuth.instance.currentUser;
+      
+      await user?.sendEmailVerification();
+      
       return true;
     } on FirebaseAuthException catch (e){
       debugPrint(e.message);

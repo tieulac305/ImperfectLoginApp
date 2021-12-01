@@ -7,7 +7,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<AppLocalization> {
 
   @override
   bool isSupported(Locale locale) =>
-    ['en', 'vi'].contains(locale.languageCode);
+    ["en", "vi"].contains(locale.languageCode);
 
   // tạo ra và thực hiện luôn, bình thường không nên dùng SynchronousFuture
   @override
