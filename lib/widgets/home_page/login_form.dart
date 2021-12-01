@@ -75,6 +75,7 @@ class _LoginFormState extends State<LoginForm> {
                         width: baseWidth - 30,
                         child: TextFormField(
                           controller: _emailController,
+                          keyboardType: TextInputType.emailAddress,
                           decoration: InputDecoration(
                             icon: const Icon(Icons.mail,
                               color: Color(0xFFFFBBBB),
@@ -93,6 +94,7 @@ class _LoginFormState extends State<LoginForm> {
                         width: baseWidth - 30,
                         child: TextFormField(
                           controller: _passwordController,
+                          obscureText: true,
                           decoration: InputDecoration(
                             icon: const Icon(Icons.vpn_key,
                               color: Color(0xFFFFBBBB),

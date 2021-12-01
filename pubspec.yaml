@@ -37,7 +37,6 @@ dependencies:
   flutter_bloc: ^8.0.0
   firebase_core: ^1.10.0
   firebase_auth: ^3.2.0
-  intl: ^0.17.0
   another_flushbar: ^1.10.26
 
 dev_dependencies:

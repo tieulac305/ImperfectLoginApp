@@ -1,6 +1,21 @@
-# perfect_login_app
+# Imperfect Login App
 
-A new Flutter project.
+Một app đơn giản chỉ để đăng nhập thôi (nhưng cũng chưa làm được tốt lắm .-.).  
+Tham khảo và làm theo sách Complete Flutter Reference.  
+**Những điều nho nhỏ đã làm được:**  
+- Vẽ cái đầu mèo :v
+- Localize và responsive
+(thật ra không responsive lắm - font chữ vẫ bé trên thiết bị to)
+- Quản lí state, tách business logic ra khỏi UI logic, repository để làm việc với csdl
+- Sử dụng Firebase để đăng nhập/ đăng kí
+**Những điểm cần cải thiện:**  
+- Thêm ẩn/hiện password
+- Ghi rõ thông tin vì sao đăng nhập/ đăng kí thất bại
+- Thêm phương thức login
+- Phần quản lí routes của pj này không được đáng yêu cho lắm
+- Chưa viết test .-.
+**Thắc mắc:**
+- Nhiều...
 
 ## Getting Started
 

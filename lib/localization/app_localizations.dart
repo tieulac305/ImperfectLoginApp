@@ -41,6 +41,10 @@ class AppLocalization{
       'register': "Register",
       'register_fail': "Failed to register.",
       'welcome_text': "Hey you little cute",
+      'weak_password': "I can guess your password. Use another, amateur.",
+      'email_already_in_use': "Really your email? Someone used it.",
+      'user_not_found': "You need to register first~",
+      'wrong_password': "WA. Type your password again.",
     },
     'vi': {
       'error': "Ôi khônggg!",
@@ -54,6 +58,10 @@ class AppLocalization{
       'register': "Đăng kí",
       'register_fail': "Đăng kí thất bại.",
       'welcome_text': "Xin chào bạn cute",
+      'weak_password': "Mật khẩu yếu quá, cố lên!",
+      'email_already_in_use': "Email đã có tài khoản.",
+      'user_not_found': "Email chưa đăng kí.",
+      'wrong_password': "Sai mật khẩu. Thử lại xem :3",
     },
   };
 }
